@@ -8,5 +8,7 @@ pm2 stop example_app
 cd ProjectDevOps/
 #Install application dependencies
 npm install
+echo $PRIVATE_KEY > privatekey.pem
+echo $SERVER > server.crt
 #Start the application with the process name example_app using PM2
 pm2 start node_modules/react-scripts/scripts/start.js --name example_app
