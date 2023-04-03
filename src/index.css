@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.landmark_name {
+  font-size: 60px;
+  text-align: center;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  height: 20vh;
+  background-color: white;
+  top: 0;
+  text-align: center;
+  font-size: 40px;
+  z-index: 10;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.filters {
+  box-sizing: border-box;
+  position: fixed; 
+  top: 20vh;
+  height: 15vh;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filters_guide {
+  box-sizing: border-box;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+}
+
+.filters_wrapper {
+  box-sizing: border-box;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+}
+
+.filterOne, .filterTwo, .filterThree {
+  display: inline-block;
+  width: 20vw;
+  vertical-align: middle;
+}
+
+.filterTwo, .filterThree {
+  margin-left: 10vw;  
+}
+
+
+.one {
+  display: inline-block;
+  width: 20vw;
+  vertical-align: middle;
+  padding-top: 3vh;
+  font-size: 20px;
+}
+
+
+
+
+
+
+.landmarks {
+  box-sizing: border-box;
+
+  margin-top: 35vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+.image {
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-size: 30px;
+}

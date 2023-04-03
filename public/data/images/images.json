@@ -1,0 +1,10 @@
+[       
+    {
+        "name":"Statue of Liberty",
+        "url":"/data/images/statue_of_liberty.jpg",
+    },
+    {
+        "name":"CN Tower",
+        "url":"/data/images/cn_tower.webp",
+    },
+]
